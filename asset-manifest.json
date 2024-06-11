@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/Saydubs/Portfolio/static/css/main.bf5f1328.css",
-    "main.js": "/Saydubs/Portfolio/static/js/main.b981171c.js",
-    "static/media/Screenshot_1.png": "/Saydubs/Portfolio/static/media/Screenshot_1.770b2f9ac6132c4db414.png",
-    "static/media/Screenshot_2.png": "/Saydubs/Portfolio/static/media/Screenshot_2.34f4ed6b3f0dadc4a20e.png",
-    "static/media/photo.png": "/Saydubs/Portfolio/static/media/photo.c7fa636c00447d075b35.png",
-    "static/media/Screenshot_3.png": "/Saydubs/Portfolio/static/media/Screenshot_3.9da52465cca81d28de63.png",
-    "static/media/intro.jpg": "/Saydubs/Portfolio/static/media/intro.e4cabda90aab37642a5c.jpg",
-    "index.html": "/Saydubs/Portfolio/index.html",
-    "main.bf5f1328.css.map": "/Saydubs/Portfolio/static/css/main.bf5f1328.css.map",
-    "main.b981171c.js.map": "/Saydubs/Portfolio/static/js/main.b981171c.js.map"
+    "main.css": "/Portfolio/static/css/main.bf5f1328.css",
+    "main.js": "/Portfolio/static/js/main.f2215c23.js",
+    "static/media/Screenshot_1.png": "/Portfolio/static/media/Screenshot_1.770b2f9ac6132c4db414.png",
+    "static/media/Screenshot_2.png": "/Portfolio/static/media/Screenshot_2.34f4ed6b3f0dadc4a20e.png",
+    "static/media/photo.png": "/Portfolio/static/media/photo.c7fa636c00447d075b35.png",
+    "static/media/Screenshot_3.png": "/Portfolio/static/media/Screenshot_3.9da52465cca81d28de63.png",
+    "static/media/intro.jpg": "/Portfolio/static/media/intro.e4cabda90aab37642a5c.jpg",
+    "index.html": "/Portfolio/index.html",
+    "main.bf5f1328.css.map": "/Portfolio/static/css/main.bf5f1328.css.map",
+    "main.f2215c23.js.map": "/Portfolio/static/js/main.f2215c23.js.map"
   },
   "entrypoints": [
     "static/css/main.bf5f1328.css",
-    "static/js/main.b981171c.js"
+    "static/js/main.f2215c23.js"
   ]
 }
