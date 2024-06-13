@@ -5,7 +5,7 @@ import Project from "./routes/Project"
 import About from "./routes/About"
 import Contact from "./routes/Contact"
 
-import { HashRouter, Route, Routes } from "react-router-dom";
+import { Route, Routes } from "react-router-dom";
 
 function App() {
   return (
