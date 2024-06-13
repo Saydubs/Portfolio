@@ -1,6 +1,7 @@
 import pro1 from "../assets/Screenshot_1.png"
 import pro2 from "../assets/Screenshot_2.png"
 import pro3 from "../assets/Screenshot_3.png"
+import pro4 from "../assets/Screenshot_4.png"
 
 const ProjectCardData = [
     {
@@ -20,6 +21,12 @@ const ProjectCardData = [
         title: "Layout markup",
         text: "I completed the layout markup from PSD using HTML5, CSS3, and the LESS preprocessor. It was done on Bootstrap 4 with adaptation for mobile devices. I used Animate.CSS and WOW.JS. Additionally, it is possible to connect an SMTP server for sending emails through a form using PHP SMTP Mailer. A JQuery input mask has also been applied to the user contact input fields.",
         view: "https://freelancehunt.com/showcase/work/moy-lichnyiy-sayt/977384.html"
+    },
+    {
+        imgsrc: pro4,
+        title: "Java Spring training project",
+        text: "I studied Java Spring and completed a training project using the following technologies: Spring Boot Starter Data JPA, Starter Mail, Starter Security, Starter Web, MySQL Connector, and Spring Security Test.",
+        view: "https://github.com/Saydubs/Easysell"
     }
 ]
 
