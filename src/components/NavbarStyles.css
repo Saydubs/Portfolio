@@ -1,7 +1,7 @@
 .header{
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    //align-items: center;
     padding: 1rem;
     position: fixed;
     width: 100%;
@@ -12,6 +12,7 @@
     background-color: rgba(0, 0, 0, 0.85);
     transition: 0.5s;
 }
+
 .nav-menu{
     display: flex;
 }

@@ -30,7 +30,9 @@ ul{
   font-weight: 600;
   cursor: pointer;
 }
-
+.btn-hide{
+  display: none;
+}
 .btn-light{
   background: transparent;
   color: #fff;

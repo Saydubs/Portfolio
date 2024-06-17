@@ -1,6 +1,7 @@
 import "./FormStyles.css"
 import React, { useRef } from 'react'
 import emailjs from '@emailjs/browser'
+import { useTranslation } from "react-i18next";
 
 const Form = () => {
   const form = useRef();
@@ -22,15 +23,17 @@ const Form = () => {
       );
   };
 
+  const{t} = useTranslation();
+
   return (
         <form className="form" ref={form} onSubmit={sendEmail}>
-            <label>Your name</label>
+            <label>{t("yourName")}</label>
             <input type="text" name="user_name"/>
             <label>E-Mail</label>
             <input type="email" name="user_email"/>
-            <label>Message</label>
-            <textarea name="message" rows="6" placeholder="Type your message here"/>
-            <button className="btn" type="submit">Submit</button>
+            <label>{t("message")}</label>
+            <textarea name="message" rows="6" placeholder={t("textareaText")}/>
+            <button className="btn" type="submit">{t("submit")}</button>
         </form>
   )
 }

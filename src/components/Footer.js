@@ -2,8 +2,10 @@ import "./FooterStyles.css"
 
 import React from 'react'
 import {FaHome,FaPhone,FaMailBulk, FaFacebook, FaInstagram, FaLinkedin} from "react-icons/fa";
+import { useTranslation } from "react-i18next";
 
 const Footer = () => {
+    const{t} = useTranslation();
   return (
     <div className="footer">
         <div className="footer-container">
@@ -31,8 +33,8 @@ const Footer = () => {
                 </div>
             </div>
             <div className="right">
-                <h4>About me</h4>
-                <p>You can find me on social media</p>
+                <h4>{t("about_me")}</h4>
+                <p>{t("socialLinks")}</p>
                 <div className="social">
                         <a href="https://www.facebook.com/profile.php?id=100004654749616" target="_blind"> 
                         <FaFacebook

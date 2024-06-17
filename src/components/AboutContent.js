@@ -3,16 +3,18 @@ import "./AboutContentStyles.css"
 import React from 'react'
 import { Link } from "react-router-dom"
 import MyPhoto from "../assets/photo.png"
+import { useTranslation } from "react-i18next";
 
 const AboutContent = () => {
+    const{t} = useTranslation();
   return (
     <div className="about">
         <div className="left">
-            <h1>Education</h1>
-            <p>09.2016 - 06.2019 Donetsk National Technical University, Degree Earned: Bachelor of Information and Communication Technology</p>
-            <p>09.2012 - 05.2016 Donetsk Polytechnic School, Degree Earned: Computer Network</p>
+            <h1>{t("education")}</h1>
+            <p>{t("university")}</p>
+            <p>{t("polytech")}</p>
             <div>
-            <Link to="/contact" className="btn">Contact
+            <Link to="/contact" className="btn">{t("contact")}
             </Link>
             </div>
         </div>
