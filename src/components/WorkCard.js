@@ -2,8 +2,12 @@ import "./WorkCardStyles.css"
 
 import React from 'react'
 import { NavLink } from "react-router-dom"
+import { useTranslation } from "react-i18next";
 
 const WorkCard = (props) => {
+
+  const{t} = useTranslation();
+
   return (
     <div className="project-card">
     <img src={props.imgsrc} alt="image"/>
@@ -14,9 +18,9 @@ const WorkCard = (props) => {
         <p>{props.text}</p>
         <div className="pro-btns">
             <NavLink to={props.view}  target="_blank"
-            className="btn">View</NavLink>
+            className="btn">{t("view")}</NavLink>
             <NavLink to="https://github.com/Saydubs?tab=repositories" target="_blank"
-            className="btn">Source</NavLink>
+            className="btn">{t("source")}</NavLink>
         </div>
     </div>
 </div>

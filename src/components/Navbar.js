@@ -4,8 +4,13 @@ import React, { useState } from 'react';
 import { Link } from "react-router-dom";
 
 import { FaBars, FaTimes } from "react-icons/fa";
+import { useTranslation } from "react-i18next";
+
+import LanguageSelector from '../components/language-selector'
 
 const Navbar = () => {
+
+    const{t} = useTranslation();
 
     const [click, setClick] = useState(false);
     const handleClick = () => setClick(!click);
@@ -26,18 +31,19 @@ const Navbar = () => {
         <Link to={"/"}>
         <h1>Portfolio</h1>
         </Link>
+        <LanguageSelector/>
         <ul className={click ? "nav-menu active" : "nav-menu"}>
             <li>
-                <Link to="/">Home</Link>
+                <Link to="/">{t("home")}</Link>
             </li>
             <li>
-                <Link to="/project">Project</Link>
+                <Link to="/project">{t("projects")}</Link>
             </li>
             <li>
-                <Link to="/about">About</Link>
+                <Link to="/about">{t("about")}</Link>
             </li>
             <li>
-                <Link to="/contact">Contact</Link>
+                <Link to="/contact">{t("contact")}</Link>
             </li>
         </ul>
         <div className="hamburger" onClick={handleClick}>
