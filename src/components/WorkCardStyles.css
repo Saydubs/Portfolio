@@ -19,6 +19,7 @@
 }
 
 .project-card img{
+    height: 180px;
     width: 100%;
 }
 .project-title{
@@ -27,6 +28,8 @@
 }
 
 .pro-details p{
+
+    min-height: 180px;
     padding-bottom: 1rem;
     font-size: 1.1rem;
     text-align: justify;
@@ -35,9 +38,11 @@
     display: flex;
     justify-content: space-between;
     padding: 0.5rem 0;
+
 }
 .pro-btns .btn{
     padding: 0.5rem 1rem;
+
 }
 
 @media screen and (max-width: 740px) {
