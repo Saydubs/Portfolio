@@ -3,6 +3,7 @@ import pro2 from "../assets/Screenshot_2.png"
 import pro3 from "../assets/Screenshot_3.png"
 import pro4 from "../assets/Screenshot_4.png"
 import pro5 from "../assets/Screenshot_5.png"
+import pro6 from "../assets/Screenshot_6.png"
 
 const ProjectCardData = [
     {
@@ -24,6 +25,16 @@ const ProjectCardData = [
             en: "I completed the layout markup from PSD using HTML5, CSS3, and the LESS preprocessor. It was done on Bootstrap 4 with adaptation for mobile devices. I used Animate.CSS and WOW.JS. ",
             ge: "Ich habe das Layout aus PSD mithilfe von HTML5, CSS3 und dem LESS-Präprozessor umgesetzt. Es wurde auf Bootstrap 4 angepasst und für mobile Geräte optimiert. Ich habe Animate.CSS und WOW.JS verwendet"},
         view: "https://saydubs.github.io/Gipsolit/"
+    },
+    {
+        imgsrc: pro6,
+        title: {
+            en: "2048 Game JavaScript",
+            ge: "Layout markup"},
+        text: {
+            en: "This is a simple tile merging game where players can move tiles up, down, left, or right. When two tiles with the same value collide, they merge into a single tile with the sum of their values. The goal is to keep merging tiles to achieve the highest possible score before no more moves are possible.",
+            ge: "Dies ist ein einfaches Kachel-Merging-Spiel, bei dem Spieler Kacheln nach oben, unten, links oder rechts bewegen können. Wenn zwei Kacheln mit demselben Wert kollidieren, verschmelzen sie zu einer einzigen Kachel mit der Summe ihrer Werte. Das Ziel ist es, Kacheln immer wieder zu verschmelzen, um die höchstmögliche Punktzahl zu erreichen, bevor keine Züge mehr möglich sind."},
+        view: "https://freelancehunt.com/showcase/work/moy-lichnyiy-sayt/977384.html"
     },
     {
         imgsrc: pro2,
@@ -56,6 +67,7 @@ const ProjectCardData = [
             ge: "Ich habe das Layout aus PSD mithilfe von HTML5, CSS3 und dem LESS-Präprozessor umgesetzt. Es wurde auf Bootstrap 4 angepasst und für mobile Geräte optimiert. Ich habe Animate.CSS und WOW.JS verwendet."},
         view: "https://freelancehunt.com/showcase/work/moy-lichnyiy-sayt/977384.html"
     },
+
 ];
 
 export default ProjectCardData
