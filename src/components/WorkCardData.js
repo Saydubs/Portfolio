@@ -34,7 +34,7 @@ const ProjectCardData = [
         text: {
             en: "This is a simple tile merging game where players can move tiles up, down, left, or right. When two tiles with the same value collide, they merge into a single tile with the sum of their values. The goal is to keep merging tiles to achieve the highest possible score before no more moves are possible.",
             ge: "Dies ist ein einfaches Kachel-Merging-Spiel, bei dem Spieler Kacheln nach oben, unten, links oder rechts bewegen können. Wenn zwei Kacheln mit demselben Wert kollidieren, verschmelzen sie zu einer einzigen Kachel mit der Summe ihrer Werte. Das Ziel ist es, Kacheln immer wieder zu verschmelzen, um die höchstmögliche Punktzahl zu erreichen, bevor keine Züge mehr möglich sind."},
-        view: "https://freelancehunt.com/showcase/work/moy-lichnyiy-sayt/977384.html"
+        view: "https://saydubs.github.io/2048Game/"
     },
     {
         imgsrc: pro2,
