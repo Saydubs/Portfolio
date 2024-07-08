@@ -6,3 +6,14 @@
 .langIconHide{
     display: none;
 }
+
+.langIcon{
+    cursor: pointer;
+}
+.langIcon:hover{
+    background-color: hsl(0, 0%, 60%);
+    border-radius: 50px;
+}
+.langIcon:active{
+    background-color: hsl(0, 0%, 70%);
+}
