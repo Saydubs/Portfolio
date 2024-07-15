@@ -49,7 +49,7 @@ const ProjectCardData = [    {
     {
         imgsrc: pro2,
         title: {
-            en: "Layout adjustments on the website",
+            en: "Layout adjustments",
             ge: "Anpassungen des Layouts auf der Website"},
         text: {
             en: "The client needed a block to be redone, minor adjustments to be made, and the logo to be changed. The changes were implemented. The 'Countries' block was modified and adapted for mobile devices.",
