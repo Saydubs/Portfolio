@@ -75,7 +75,7 @@ const ProjectCardData = [    {
         text: {
             en: "I completed the layout markup from PSD using HTML5, CSS3, and the LESS preprocessor. It was done on Bootstrap 4 with adaptation for mobile devices. I used Animate.CSS and WOW.JS.",
             ge: "Ich habe das Layout aus PSD mithilfe von HTML5, CSS3 und dem LESS-Präprozessor umgesetzt. Es wurde auf Bootstrap 4 angepasst und für mobile Geräte optimiert. Ich habe Animate.CSS und WOW.JS verwendet."},
-        view: ""
+        view: "https://freelancehunt.com/showcase/work/miy-osobistiy-sayt/977384.html"
     },
 
 
