@@ -4,9 +4,19 @@ import pro3 from "../assets/Screenshot_3.png"
 import pro4 from "../assets/Screenshot_4.png"
 import pro5 from "../assets/Screenshot_5.png"
 import pro6 from "../assets/Screenshot_6.png"
+import pro7 from "../assets/Screenshot_7.png"
 
-const ProjectCardData = [
-    {
+const ProjectCardData = [    {
+        imgsrc: pro7,
+        title: {
+            en: "Layout markup",
+            ge: "Layout markup"},
+        text: {
+            en: "I completed the layout for a PSD design using HTML5, CSS3, and JS. The project was developed to ensure mobile responsiveness.",
+            ge: "Ich habe das Layout für ein PSD-Design mit HTML5, CSS3 und JS abgeschlossen. Das Projekt wurde entwickelt, um die mobile Reaktionsfähigkeit sicherzustellen."},
+        view: "https://saydubs.github.io/shop/"
+    },
+    {   
         imgsrc: pro5,
         title: {
             en: "Layout markup",
@@ -67,6 +77,7 @@ const ProjectCardData = [
             ge: "Ich habe das Layout aus PSD mithilfe von HTML5, CSS3 und dem LESS-Präprozessor umgesetzt. Es wurde auf Bootstrap 4 angepasst und für mobile Geräte optimiert. Ich habe Animate.CSS und WOW.JS verwendet."},
         view: "https://freelancehunt.com/showcase/work/moy-lichnyiy-sayt/977384.html"
     },
+
 
 ];
 
